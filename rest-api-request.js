@@ -7,6 +7,8 @@
             jsonItems = '{ "id": "Lights", "action": "toggle" }';
         else if (buttonId === "WaterButton")
             jsonItems = '{ "id": "Water", "action": "toggle" }';
+	else if (buttonId === "anotherButton)
+	    jsonItems =  '{}';
         else
             return;
 
